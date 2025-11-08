@@ -23,3 +23,6 @@ print(to_do_list)
 
 to_do_list[1] = 69
 print(to_do_list)
+
+to_do_list[0] = 69
+print(to_do_list)
