@@ -1,13 +1,14 @@
+#oop perdor class per kod me te menagjushem class ka atribute dhe metoden
 class Rectangle:
-    def __init__(self,length,width):
+    def __init__(self, length, width):
         self.length = length
         self.width = width
 
-     def calculate_area(self):
-         return self.length * self.width
+    def calculate_area(self):
+        return self.length * self.width
 
-     def calculate_perimeter(self):
-         return 2 * (self.length + self.width)
+    def calculate_perimeter(self):
+        return 2 * (self.length + self.width)
 
 
 my_rectangle = Rectangle(2, 5)

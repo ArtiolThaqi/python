@@ -1,3 +1,4 @@
+#funksionon pa class direkt me funksionin def
 def calculate_area(length,width):
     return length*width
 
