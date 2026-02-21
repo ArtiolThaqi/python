@@ -8,5 +8,5 @@ class MyClass:
         print("This is a Private method")
 
 my_class = MyClass()
-print(myclass.__private_variable)
-print(myclass.__private_method())
+print(MyClass.__private_variable)
+print(MyClass.__private_method())
