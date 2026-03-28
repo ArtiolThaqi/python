@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('file1.csv')
+df = pd.read_csv('../../Moduli14/file1.csv')
 print(df.info())
 
 first_rows = df.head()
