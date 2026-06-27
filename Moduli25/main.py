@@ -39,6 +39,6 @@ def update_movie(movie_id: int, movie: MovieCreate):
 def delete_movie(movie_id: int):
     deleted = database.delete_movie(movie_id)
     if not deleted:
-        raise HTTPException(status_code=404, detail="Movies not found")
+        raise HTTPException(status_code=404, detail="Movie not found")
     return { "message": "Movie successfully deleted" }
 

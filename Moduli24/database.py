@@ -25,7 +25,7 @@ cursor.execute('''
       VALUES (?, ?, ?, ?)
     
 
-
+    
 ''',('John Doe','Software Engineer','IT',7000.00))
 
 connection.commit()

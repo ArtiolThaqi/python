@@ -68,7 +68,7 @@ def update_movie(movie_id: int, movie: MovieCreate)-> bool:
 def delete_movie(movie_id: int)-> bool:
     connection = create_connection()
     cursor = connection.cursor()
-    cursor.execute("DELETE FROM movie WHERE id = ?",(movie_id,))
+    cursor.execute("DELETE FROM movies WHERE id = ?",(movie_id,))
     connection.commit()
     deleted = cursor.rowcount
     connection.close()

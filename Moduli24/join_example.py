@@ -14,7 +14,7 @@ cursor.execute('''
     CREATE TABLE IF NOT EXISTS courses (
       course_id INTEGER PRIMARY KEY,
       course_name TEXT,
-      student_id INTEGER, 
+      student_id INTEGER,  
       FOREIGN KEY (student_id) REFERENCES students(student_id)
     )   
 ''')
