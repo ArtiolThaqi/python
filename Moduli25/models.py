@@ -4,6 +4,6 @@ class MovieCreate(BaseModel):
     title: str
     director: str
 
-class Movie(MovieCreate):
+class Movie(MoviesCreate):
     id: int
 
