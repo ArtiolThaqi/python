@@ -7,7 +7,7 @@ def create_connection()->Any:
     create a database connection between the server and the database
     :return: Connection variable
     '''
-    conn= sqlite3.connect("pyadvanced24.db")
+    conn= sqlite3.connect("../Modulii24/pyadvanced24.db")
     conn.row_factory=sqlite3.Row
     return conn
 
